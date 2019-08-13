@@ -7,7 +7,7 @@ class Negociacao {
     this._valor = valor;
   }
 
-  obtemVolume() {
+  getVolume() {
     return this._quantidade * this._valor;
   }
 
